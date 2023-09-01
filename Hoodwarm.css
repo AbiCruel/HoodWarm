@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.body {
+    width: 900px;
+
+}
+
+.box1 {
+ 
+ background-color: #faa00f;
+ 
+}
+
+.menu { 
+   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.L-N {
+display: flex;
+justify-content: space-between;
+align-items: center; 
+/*border: 3px solid black;*/
+padding: 5px 10px;
+}
+
+.logo {
+margin-left: 15px;
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*border: 3px solid black;*/
+    padding: 5px 10px;
+}
+
+.account {
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+
+.box2 {
+    background-color: #faa00f;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.header {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .filler {
+    width: 100px;
+    height: 100px;
+    background-color:#faa00f;
+    /*border: 5px solid black;*/
+  }
+
+  .words {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+  }
+
+
+.p1 {
+    display: flex;
+    align-items: center;
+    /*border: 5px solid black;*/
+    margin-left: 30px;
+
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.p1b {
+  text-align: center;
+}
+
+
+.image2 {
+    display: flex;
+    padding: 10px 50px 5px 0;
+    
+}
+
+
+
+
+.photo-box3 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.p2 {
+    color: #8b4605;
+    font-size: 30px;
+    font-weight: 40px;
+}
+
+
+.hoodie-sale {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   flex-direction: row;
+    
+}
+
+.photo-box-item {
+    border: 15px solid #fff;
+    height: auto;
+    width: auto;
+   
+}
+
+.hoodie {
+    height: 150px;
+    width: auto;
+}
+
+
+
+.footer {
+ background-color: #faa00f;
+ 
+}
+
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-image {
+   margin-bottom: 25px;
+  }
+
+
+  .footer-item {
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faa00f;
+    flex: 2;
+    /*border: 2px solid white;*/
+  }
+
+h3 {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+  .footer-three {
+    
+  }
+
+
+
+
+h1{
+padding: 10px;
+border: 1px solid blue;
+
+}
+
+
+
+
+.image2 {
+    display: inline;
+}
+
+.button:link, .button:visited {
+    display:block;
+    text-decoration: none;
+
+    color: blanchedalmond;
+    background-color: rgb(207, 136, 4);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+
+    width: 200px;
+    margin: auto;
+}
+.button:hover,.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+.button:active, .button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+
+.action:link,
+.action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.action:hover, .action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.action:active, .action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
+}
+.contacts {
+    color: black;
+    background-color: rgb(252, 182, 54);
+}
+
+#button-2 {
+    color: #5D6063;  /* Dark gray */
+  }
+
+
+a:link {
+color: rgba(0, 0, 0, 0.822);
+text-decoration: none;
+}
+a:visited {
+color: brown;
+}
+a:hover {
+color: beige;
+text-decoration: underline;
+}
+a:active {
+color: rgb(255, 183, 1);
+}
+/*a:visited:hover {
+    color: orange;
+a:visited:active {
+    color: red;*/
+
+/*
+.hoodiepic{
+    box-shadow: 5px 5px rgb(123, 81, 3);
+}
+*/
+
+h6 {
+    font-weight: bold;
+    font-size: 40px;
+    color: green;
+}
+
+.CartList {
+    width: 700px;
+    height: 400px;
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+flex-direction: column;
+background-color: #ffe9c3;
+}
+
+.cart-item {
+    border: 10px solid #fff;
+    height: 200px;
+    width: 200px;
+    background-color: #ffae00;
+    /*flex: 1;*/
+}
+   
+
+
